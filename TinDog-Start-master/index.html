@@ -16,9 +16,8 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
     crossorigin="anonymous"></script>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,900;1,900&family=Ubuntu&display=swap"
-    rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700;900&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700;900&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4c49d401fb.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -54,8 +53,8 @@
       <div class="row">
         <div class="col-lg-6">
           <h1>Meet new and interesting dogs nearby.</h1>
-          <button type="button" class="btn btn-dark btn-lg download-button">{_} Download</button>
-          <button type="button" class="btn btn-outline-light btn-lg download-button">>> Download</button>
+          <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i>  Download</button>
+          <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i>  Download</button>
         </div>
         <div class="col-lg-6">
           <img class="header-phone" src="images/iphone6.png" alt="iphone-mockup">
@@ -71,17 +70,20 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-lg-4 feature-item">
-          <i>V</i>
+          <!-- <i>V</i> -->
+          <i class="icon fas fa-check-circle fa-4x"></i>
           <h3>Easy to use.</h3>
           <p>So easy to use, even your dog could do it.</p>
         </div>
         <div class="col-lg-4 feature-item">
-          <i>O</i>
+          <!-- <i>O</i> -->
+          <i class="icon fas fa-bullseye fa-4x"></i>
           <h3>Elite Clientele.</h3>
           <p>We have all the dogs, the greatest&nbsp;dogs.</p>
         </div>
         <div class="col-lg-4 feature-item">
-          <i>:></i>
+          <!-- <i>:></i> -->
+          <i class="icon fas fa-heart fa-4x"></i>
           <h3>Guaranteed to work.</h3>
           <p>Find the love of your dog's life or your money&nbsp;back.</p>
         </div>
@@ -93,14 +95,31 @@
   <!-- Testimonials -->
 
   <section id="testimonials">
+    <div id="testimonial-carosel" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
+          <img class="testimonial-image" src="images/dog-img.jpg" alt="dog-profile">
+          <em>Pebbles, New York</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
+          <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+          <em>Beverly, Illinois</em>
+        </div>
+        <!-- <div class="carousel-item">
+        </div> -->
+      </div>
+        <a class="carousel-control-prev" href="#testimonial-carosel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carosel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </a>
+    </div>
 
-    <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
-    <img src="images/dog-img.jpg" alt="dog-profile">
-    <em>Pebbles, New York</em>
 
-    <!-- <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
-    <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
-    <em>Beverly, Illinois</em> -->
+
 
   </section>
 
@@ -108,10 +127,10 @@
   <!-- Press -->
 
   <section id="press">
-    <img src="images/techcrunch.png" alt="tc-logo">
-    <img src="images/tnw.png" alt="tnw-logo">
-    <img src="images/bizinsider.png" alt="biz-insider-logo">
-    <img src="images/mashable.png" alt="mashable-logo">
+    <img class="press-image" src="images/techcrunch.png" alt="tc-logo">
+    <img class="press-image" src="images/tnw.png" alt="tnw-logo">
+    <img class="press-image" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="press-image" src="images/mashable.png" alt="mashable-logo">
 
   </section>
 

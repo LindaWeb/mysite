@@ -20,6 +20,13 @@ h1 {
     line-height: 1.5;
     color: white;
 }
+h2 {
+    font-family:  'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+
+}
 
 /* Navigation Bar */
 .navbar {
@@ -46,9 +53,13 @@ h1 {
 }
 
 /* Features */
+#fatures {
+    padding: 7% 15%;
+}
 
 .feature-item {
     text-align: center;
+    padding: 4%;
 }
 
 .feature-item h3 {
@@ -58,11 +69,39 @@ h1 {
 .feature-item p {
     color: #8f8f8f;
 }
-#features i {
+#features .icon {
     color: #ef8172;
-    font-size: 3rem;
-    font-weight: bold;
+    margin: 0 0 2rem;
 }
-#features i:hover {
+#features .icon:hover {
     color: #ff4c68;
+}
+
+/* Testimonials */
+
+#testimonials {
+
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+.carousel-item {
+    padding: 7% 15%;
+}
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* Press */
+
+#press {
+    padding: 0 0 3%;
+    text-align: center;
+    background-color: #ef8172;
+}
+.press-image {
+    width:15%;
+    margin: 20px 20px 50px;
 }
