@@ -11,7 +11,7 @@ for (var i = 0; i < drumButton.length; i++) {
         var buttonInnerHTML = this.innerHTML;
 
         makeSound(buttonInnerHTML);
-
+        buttonAnimation(buttonInnerHTML);
     });
 };
 
@@ -22,6 +22,7 @@ document.addEventListener("keydown", function(event) {
     // console.log(event);
     // console.log(event.code);
     makeSound(event.key);
+    buttonAnimation(event.key);
 })
 
 
@@ -66,4 +67,13 @@ function makeSound(key) {
         default: console.log(this.innerHTML);
     }
     
+}
+
+function buttonAnimation (currentKey) {
+
+   var activeButton = document.querySelector("." + currentKey);
+
+   activeButton.classList.add("pressed");
+
+   setTimeout(function(){ activeButton.classList.remove("pressed"); }, 100);
 }
