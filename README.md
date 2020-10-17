@@ -10,5 +10,5 @@ and save the pages locally.
 ## Section 21
 Here you  lear how to set up GIT, use this to save the 
 ### TIP: Proxy 
-`set HTTPS_PROXY=http://<username>:<password>@192.168.101.56:800`<br>
-`set HTTP_PROXY=http://<username>:<password>@192.168.101.56:800`<br>
+`set HTTPS_PROXY=http://<username>:<password>@<ip>:800`<br>
+`set HTTP_PROXY=http://<username>:<password>@<ip>:800`<br>
